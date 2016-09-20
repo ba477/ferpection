@@ -1,0 +1,12 @@
+# Les ligne commen?ant par '#' sont des commentaires.
+# Ignorer tous les fichiers nomm?s foo.txt
+node_modules/
+css/style.css
+
+# Ignorer tous les fichiers html
+*.html
+# ? l'exception de foo.html qui est maintenu ? la main
+!foo.html
+# Ignorer les objets et les archives
+*.[oa]
+ \  No newline at end of file
